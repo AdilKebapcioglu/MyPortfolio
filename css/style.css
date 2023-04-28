@@ -15,7 +15,7 @@ h2 {
 	font-size: 36px;
 	font-weight: 300;
 	margin-bottom: 20px;
-	color: #666;
+	color: #888;
 }
 h3 {
 	font-size: 16px;
@@ -180,14 +180,14 @@ header p {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-/* Team Section */
-#team-section {
+/* Skills Section */
+#skills-section {
 	padding: 100px 0;
 }
 .section-title.center {
 	padding: 30px 0;
 }
-#team-section h3 {
+#skills-section h3 {
 	border-top: 1px solid #b8dea2;
 	padding-top: 20px;
 	display: inline-block;
@@ -199,18 +199,18 @@ img.team-img {
 	transition: all 0.5s;
 	margin: 0;
 }
-#team-section .thumbnail {
+#skills-section .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#team-section .thumbnail .caption {
+#skills-section .thumbnail .caption {
 	padding: 0;
 }
-/* Services Section */
-#services-section {
+/* Resume Section */
+#resume-section {
 	padding: 100px 0;
 }
-#services-section h4 {
+#resume-section h4 {
 	border-bottom: 1px solid #b8dea2;
 	padding-bottom: 20px;
 	display: inline-block;
@@ -218,7 +218,7 @@ img.team-img {
 .space {
 	margin-top: 40px;
 }
-#services-section i.fa {
+#resume-section i.fa {
 	font-size: 36px;
 	margin-right: 20px;
 	color: #71bd46;
