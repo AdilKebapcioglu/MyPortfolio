@@ -13,7 +13,7 @@ h2 {
 	line-height: 20px;
 	margin: 0;
 	font-size: 36px;
-	font-weight: 300;
+	font-weight: 400;
 	margin-bottom: 20px;
 	color: #888;
 }
@@ -34,6 +34,12 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
 	line-height: 24px;
+}
+p big {
+	font-family: 'Open Sans', sans-serif;
+	color: #888;
+	line-height: 24px;
+	font-size: 22px;
 }
 a {
 	color: #71bd46;
@@ -64,6 +70,13 @@ ul, ol {
 	webkit-padding: 0;
 	moz-padding: 0;
 	list-style: none;
+}
+li {
+	font-family: 'Open Sans', sans-serif;
+	color: #888;
+	line-height: 24px;
+	padding-top: 5px;
+  	padding-bottom: 5px;
 }
 hr {
 	height: 2px;
@@ -151,6 +164,10 @@ header p {
 	color: #71bd46;
 	font-weight: 700;
 }
+.color-light {
+	color: #71bd46;
+	font-weight: 400;
+}
 .btn-default {
 	color: #71bd46;
 	font-family: 'Open Sans', sans-serif;
@@ -169,7 +186,7 @@ header p {
 /* About Section */
 #about-section {
 	padding: 100px 0;
-	background-color: #f6f6f6;
+	background-color: #f0f0f0;
 }
 #about-section h4 {
 	border-bottom: 1px solid #b8dea2;
@@ -183,6 +200,7 @@ header p {
 /* Skills Section */
 #skills-section {
 	padding: 100px 0;
+	background-color: #f6f6f6;
 }
 .section-title.center {
 	padding: 30px 0;
@@ -209,6 +227,7 @@ img.team-img {
 /* Resume Section */
 #resume-section {
 	padding: 100px 0;
+	background-color: #f6f6f6;
 }
 #resume-section h4 {
 	border-bottom: 1px solid #b8dea2;
@@ -225,11 +244,11 @@ img.team-img {
 	padding-bottom: 10px;
 	display: block;
 }
-/* Gallery Section 
+/* Projects Section 
 ==============================*/
-#works-section {
+#projects-section {
 	padding: 100px 0;
-	background-color: #f6f6f6;
+	background-color: #f0f0f0;
 }
 .categories {
 	padding-bottom: 30px;
@@ -336,7 +355,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
-	background-color: #f6f6f6;
+	background-color: #f0f0f0;;
 }
 #contact-section form {
 	padding: 30px 0;
@@ -404,14 +423,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Social Section */
 #social-section {
 	padding: 30px 0;
-	background-color: #fff;
+	background-color: #f0f0f0;;
 }
 #social-section .social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
 #social-section .social i.fa {
-	font-size: 24px;
+	font-size: 36px;
 	padding: 4px 5px;
 	color: #71bd46;
 	transition: all 0.5s;
@@ -455,3 +474,40 @@ label {
 }
 }
 
+.icon{
+	width: 50px;
+    height: 50px;
+	padding: 10px;
+}
+
+.icon-medium{
+	width: 60px;
+    height: 40px;
+}
+
+.icon-small{
+	width: 25px;
+    height: 25px;
+}
+
+.resume-link {
+	display: inline;
+	margin-right: 10px;
+}
+
+.title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.description{
+	padding-bottom: 40px;
+}
+
+.row{
+	padding-bottom: 60px;
+}
+
+.container{
+	padding-bottom: 40px;
+}
